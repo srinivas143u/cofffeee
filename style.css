@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400;600&family=Mynerve&family=Shantell+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Great Vibes', cursive;
+}
+:root{
+      --primary-colour: sandybrown;
+      --primary-font-colour:#000000;
+      --secondary-colour:#E6E6FA;
+      --primary-font-size:2rem;
+      --secondary-font-size:1rem
+
+}
+.align{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+header{
+    background-color: var(--primary-colour);
+    width: 100%;
+    height: 65px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.logo{
+    margin-left: 30px;
+}
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+.navlink{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+}
+.navlink li{
+    display: inline-flex;
+}
+.navlink li a {
+    position: relative;
+    display: inline-flex;
+    top: 4px;
+    padding: 6px 20px;
+    text-align: center;
+    margin-left: 20px;
+    color: var(--primary-font-colour);
+    border-radius: 40px;
+    font-family: 'Charm', cursive;
+    font-size: var(--secondary-font-size);
+}
+.navlink li a:hover{
+    background-color: lavender;
+}
+html{
+    scroll-padding-top: 4.05rem;
+}
+.mainheader{
+    width: 100%;
+    height: 561px;
+}
+.mainheader img{
+    width: 100%;
+    height: 561px;
+}
+.mainfont{
+    position: absolute;
+    top: 45%;
+    left: 12%;
+}
+.mainfont h1{
+      position: relative;
+      left: 30px;
+      bottom: 5px ;
+      font-family: 'Courgette', cursive;
+      font-size: 3em;
+}
+.mainfont p{
+    margin-top: 2px;
+    margin-left: 24px;
+}
+.para{
+    position: relative;
+    left: 30px;
+}
+.mainfont button{
+    margin-top: 10px;
+    margin-left: 120px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--primary-colour);
+    font-family: 'Charm', cursive;
+    font-size: var(--secondary-font-size);
+    box-shadow: 0 2px 2px 0;
+}
+.mainfont button:hover{
+    background-color: var(--secondary-colour);
+}
+.section1{
+    width: 100%;
+    height: 561px;
+    display: inline-flex;
+    gap: 20%;
+}
+.image1{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.image1 img{
+    width: 400px;
+    height: 400px;
+}
+.font1{
+    margin-top: 15%;
+}
+.font1 h1{
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+}
+.font1 p{
+   margin-top: 10px;
+}
+.font1 button{
+    width: 100px;
+    height: 40px;
+    margin-left: 220px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: var(--primary-colour);
+    font-family: 'Charm', cursive;
+    font-size: var(--secondary-font-size);
+    box-shadow: 0 2px 2px 0;
+}
+.font1 button:hover{
+    background-color: var(--secondary-colour);
+}
+.section2{
+    width: 100%;
+    height: 563px;
+}
+.facility{
+    margin-left: 37%;
+}
+.facility h1{
+    margin-left: 117px;
+    font-family: 'Courgette', cursive;
+
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10px;
+    margin-right: 180px
+}
+.grid-item1{
+    position: relative;
+    left: 50%;
+}
+.grid-item1 img{
+    width: 200px;
+    height: 150px;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10px;
+    margin-right: 180px;
+}
+.grid-item1 h2{
+    width: 200px;
+    height:  50px;
+    font-family: 'Charm', cursive;
+}
+.grid-item1{
+    position: relative;
+    left: 50%;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10px;
+    margin-right: 180px;
+}
+.grid-item1 p{
+    width: 200px;
+    height:  50px;
+}
+.grid-item1{
+    position: relative;
+    left: 50%;
+}
+.facility1{
+    margin-left: 37%;
+}
+.facility1 h1{
+    margin-left: 100px;
+    margin-top: 5px;
+    font-family: 'Courgette', cursive;
+}
+.grid-container4{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-top: 10px;
+    margin-right: 380px;
+}
+.grid-item4{
+    margin-left: 80%;
+}
+.grid-item4 img{
+    width: 190px;
+    height: 160px;
+}
+.grid-container4{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-right: 380px;
+}
+.grid-item4 h2{
+    width: 190px;
+    height: 50px;
+    margin-left: 40px;
+    font-family: 'Charm', cursive;
+}
+.grid-container6{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-right: 380px;
+    margin-bottom: 10px;
+}
+.grid-item6{
+    margin-left: 80%;
+}
+.grid-item6 img{
+    width: 190px;
+    height: 160px;
+}
+
+.grid-item6 h2{
+    width: 190px;
+    height: 50px;
+    margin-left: 40px;
+    font-family: 'Charm', cursive;
+}
+.facility2{
+    margin-left: 37%;
+}
+.facility2 h1{
+    margin-left: 113px;
+    margin-top: 5px;
+    font-family: 'Courgette', cursive;
+}
+.grid-container8{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-right: 380px;
+    margin-top: 10px;
+}
+.grid-item8{
+   margin-left: 75%;
+}
+.grid-item8 img{
+    width: 220px;
+    height: 200px;
+}
+.grid-container9{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-right: 380px;
+    margin-top: 10px;
+}
+.grid-item9{
+    margin-left: 75%;
+}
+.grid-item9 img{
+    width: 220px;
+    height: 200px;
+}
+.facility3{
+    margin-left: 37%;
+}
+.facility3 h1{
+    margin-left: 120px;
+    margin-top: 5px;
+    font-family: 'Courgette', cursive;
+}
+.grid-container10{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-right: 380px;
+    margin-top: 3px;
+}
+.grid-item10{
+    margin-left: 78%;
+}
+.grid-item10 img{
+    width: 220px;
+    height: 170px;
+}
+
+.grid-item10 h2{
+    width: 190px;
+    height: 50px;
+    margin-left: 63px;
+    font-family: 'Charm', cursive;
+}
+.grid-container12{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-right: 380px;
+}
+.grid-item12{
+    margin-left: 78%;
+}
+.grid-item12 img{
+    width: 220px;
+    height: 170px;
+}
+
+.grid-item12 h2{
+    width: 190px;
+    height: 50px;
+    margin-left: 63px;
+    font-family: 'Charm', cursive;
+}
+.facility4{
+    margin-left: 37%;
+}
+.facility4 h1{
+    margin-left: 117px;
+    margin-top: 5px;
+    font-family: 'Courgette', cursive;
+}
+.flex{
+    display: inline-flex;
+    gap: 130px;
+}
+.photo{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.photo img{
+    width: 400px;
+    height: 400px;
+}
+.register{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.register h2{
+    margin-left: 130px;
+    margin-top: 15px;
+    font-family: 'Charm', cursive;
+}
+.register input{
+    width: 300px;
+    height: 40px;
+    margin-left: 35px;
+    border: 2px solid black;
+}
+.register button{
+    width: 150px;
+    height: 40px;
+    margin-left: 120px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: var(--primary-colour);
+    font-family: 'Charm', cursive;
+}
+.register button:hover{
+      background-color: var(--secondary-colour);
+}
+
+.grid-container14{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    margin-right: 380px;
+    margin-top: 20px;
+}
+.grid-item14{
+    position: relative;
+    left: 110%;
+}
+.grid-item14 i{
+    position: relative;
+    padding: 10px 10px;
+    background-color: var(--primary-colour);
+    border-radius: 50%;
+    box-shadow: 0 2px 2px 0;
+    left: 22px;
+}
+.align1{
+    margin-left: 10px;
+}
+.align2{
+    position: relative;
+    right: 10px;
+}
+.align3{
+    position: relative;
+    right: 10px;
+}
+.align4{
+    position: relative;
+    left: 17px;
+}
+.footer1{
+    width: 100%;
+    height: 250px;
+}
+
+.grid-item14 h2{
+    width: 160px;
+    height: 30px;
+    font-family: 'Courgette', cursive;
+    margin-top: 10px;
+    position: relative;
+    right: 15px;
+}
+
+.grid-item14 p{
+    width: 160px;
+    height: 30px;
+    font-family: 'Charm', cursive;
+    position: relative;
+    right: 15px;
+}
+.line{
+   width: 80%;
+   height: 5px;
+   background-color: black;
+   margin-left: 10%;
+   border-radius: 20px;
+   margin-top: 50px;
+}
+.final{
+    margin-top: 20px;
+    margin-left: 37%;
+}
+.final a{
+    font-family: 'Courgette', cursive;
+}
+#toggle{
+    display: none;
+}
+.menu{
+    display: none;
+}
+@media (max-width:780px){
+    header{
+        height: 60px;
+        width: 100%;
+    }
+    #toggle:checked + .navlink{
+        display: flex;
+    }
+    .menu{
+        margin-left: 75%;
+        position: relative;
+        bottom: 40px;
+    }
+    .navlink{
+        flex-direction: column;
+        display: none;
+    }
+    .navlink li {
+        display: block;
+        position: relative;
+        left: 80%;
+        background-color: white;
+        height: 50px;
+        top: 45px;
+    }
+    .navlink li a{
+        position: relative;
+        right: 10px;
+    }
+     .menu{
+        display: flex;
+     }
+    .logo img{
+        margin-top: 1px;
+        width: 50px;
+        height: 50px;
+    }
+    html{
+        scroll-padding-top: 4.5rem;
+    }
+    .mainfont{
+         margin-top: 0px;
+    }
+    .mainfont h1{
+        font-size: 20px;
+    }
+    .mainfont p{
+        font-size: 10px;
+        margin-left: 5px;
+
+    }
+    .mainfont button{
+        width: 70px;
+        height: 30px;
+        border-radius: 20px;
+        margin-left: 50px;
+        font-size: 10px;
+    }
+    .image1 img{
+        width: 330px;
+        height: 400px;
+        margin-top: 5px;
+    }
+    .section1{
+        display: block;
+    }
+    .font1{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .font1 button{
+        margin-left: 180px;
+        margin-top: 5px;
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .font1 h1{
+        font-size: 20px;
+    }
+    .facility{
+        margin-left: 50px;
+        margin-top: 120px;
+    }
+    .facility img{
+        width: 200px;
+        height: 50px;
+        margin-left: 50px;
+    }
+    .facility .grid-container1 .grid-item1{
+        width: 18rem;
+    }
+    .facility h1{
+        margin-left: 90px;
+    }
+
+   .grid-container1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+   }
+   .section2{
+    margin-top: 50px;
+   }
+   .facility1{
+    margin-top: 720px;
+    margin-left: 95px;
+   }
+   .facility1 img{
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+.facility1 h1{
+    margin-left: 70px;
+}
+   .grid-container4{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .grid-item4{
+    margin-left: 150px;
+   }
+   .grid-container6{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .grid-item6{
+    margin-left: 150px;
+   }
+   .facility2{
+    margin-top: 870px;
+    margin-left: 95px;
+   }
+   .facility2 img{
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+.facility2 h1{
+    margin-left: 90px;
+}
+   .grid-container8{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 5px;
+   }
+   .grid-item8{
+    margin-left: 140px;
+   }
+   .grid-container9{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 5px;
+    margin-top: 5px;
+   }
+   .grid-item9{
+    margin-left: 140px;
+   }
+   .facility3{
+    margin-top: 850px;
+    margin-left: 95px;
+   }
+   .facility3 img{
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+.facility3 h1{
+    margin-left: 90px;
+}
+   .grid-container10{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .grid-item10{
+    margin-left: 140px;
+   }
+   .grid-container12{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .grid-item12{
+    margin-left: 140px;
+   }
+   .facility4{
+    margin-top: 900px;
+    margin-left: 95px;
+   }
+   .facility4 img{
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+.facility4 h1{
+    margin-left: 90px;
+}
+   .flex{
+    display: grid;
+    gap: 10px;
+   }
+   .photo img{
+    width: 250px;
+    height: 250px;
+   }
+   .register{
+    width: 250px;
+    height: 300px;
+    margin-left: 95px;
+   }
+   .register h2{
+    margin-left: 33px;
+   }
+   .register input[type=text]{
+    width: 150px;
+   }
+   .register button{
+    margin-left: 30px;
+   }
+   footer{
+    margin-top: 200px;
+   }
+   .grid-container14{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 20px;
+   }
+   .final a{
+    position: relative;
+    right: 70px;
+   }
+   }
+         
+    
+     
+
+   
